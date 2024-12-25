@@ -1,28 +1,28 @@
 {
-  "name": "angular-playgroud",
+  "name": "angular-playground",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "apps/angular-playgroud/src",
+  "sourceRoot": "apps/angular-playground/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/angular-playgroud",
-        "index": "apps/angular-playgroud/src/index.html",
-        "browser": "apps/angular-playgroud/src/main.ts",
+        "outputPath": "dist/apps/angular-playground",
+        "index": "apps/angular-playground/src/index.html",
+        "browser": "apps/angular-playground/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/angular-playgroud/tsconfig.app.json",
+        "tsConfig": "apps/angular-playground/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/angular-playgroud/public"
+            "input": "apps/angular-playground/public"
           }
         ],
-        "styles": ["apps/angular-playgroud/src/styles.scss"],
+        "styles": ["apps/angular-playground/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -53,10 +53,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "angular-playgroud:build:production"
+          "buildTarget": "angular-playground:build:production"
         },
         "development": {
-          "buildTarget": "angular-playgroud:build:development"
+          "buildTarget": "angular-playground:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -64,7 +64,7 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "angular-playgroud:build"
+        "buildTarget": "angular-playground:build"
       }
     },
     "lint": {
@@ -74,15 +74,15 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/angular-playgroud/jest.config.ts"
+        "jestConfig": "apps/angular-playground/jest.config.ts"
       }
     },
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "angular-playgroud:build",
+        "buildTarget": "angular-playground:build",
         "port": 4200,
-        "staticFilePath": "dist/apps/angular-playgroud/browser",
+        "staticFilePath": "dist/apps/angular-playground/browser",
         "spa": true
       }
     }
