@@ -3,10 +3,7 @@ const { join } = require('path');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  presets: [
-    // import core configuration
-    require('../../libs/shared/assets/core-tailwind.config'),
-  ],
+  presets: [require('@spartan-ng/ui-core/hlm-tailwind-preset')],
   content: [
     join(__dirname, 'src/**/!(*.stories|*.spec).{ts,html}'),
     ...createGlobPatternsForDependencies(__dirname),
