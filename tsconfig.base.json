@@ -18,9 +18,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@/ui": [
-        "libs/shared/ui/src/index.ts"
-      ],
       "@spartan-ng/ui-button-helm": [
         "libs/shared/ui/spartan-ui/ui-button-helm/src/index.ts"
       ]
