@@ -1,5 +1,5 @@
 {
-  "name": "@angular-monorepo/source",
+  "name": "@nx-angular/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
