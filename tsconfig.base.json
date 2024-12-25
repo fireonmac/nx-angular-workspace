@@ -22,7 +22,7 @@
         "libs/shared/ui/src/index.ts"
       ],
       "@spartan-ng/ui-button-helm": [
-        "libs/shared/ui/src/spartan-ui/ui-button-helm/src/index.ts"
+        "libs/shared/ui/spartan-ui/ui-button-helm/src/index.ts"
       ]
     }
   },

@@ -2,7 +2,7 @@ export default {
   displayName: 'ui-button-helm',
   preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../../../coverage/libs/shared/ui/src/spartan-ui/ui-button-helm',
+  coverageDirectory: '../../../../coverage/libs/shared/ui/spartan-ui/ui-button-helm',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
