@@ -5,7 +5,7 @@ const { join } = require('path');
 module.exports = {
   presets: [
     // import core configuration
-    require('../../libs/shared/assets/core-tailwind.config'),
+    require('../../libs/shared/configs/styles/web/tailwind.config'),
   ],
   content: [
     join(__dirname, 'src/**/!(*.stories|*.spec).{ts,html}'),
