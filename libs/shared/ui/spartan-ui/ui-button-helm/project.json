@@ -1,6 +1,6 @@
 {
   "name": "ui-button-helm",
-  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared/ui/spartan-ui/ui-button-helm/src",
   "prefix": "hlm",
   "projectType": "library",

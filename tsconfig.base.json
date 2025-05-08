@@ -10,19 +10,24 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@spartan-ng/util-assets": ["libs/shared/ui/spartan-ui/util-assets/src/index.ts"],
+      "@spartan-ng/util-assets": [
+        "libs/shared/ui/spartan-ui/util-assets/src/index.ts"
+      ],
       "@spartan-ng/ui-button-helm": [
         "libs/shared/ui/spartan-ui/ui-button-helm/src/index.ts"
-      ],
-      "@spartan-ng/ui-radiogroup-helm": [
-        "libs/shared/ui/spartan-ui/ui-radiogroup-helm/src/index.ts"
       ]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
