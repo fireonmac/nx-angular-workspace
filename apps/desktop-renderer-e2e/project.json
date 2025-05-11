@@ -1,0 +1,9 @@
+{
+  "name": "desktop-renderer-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/desktop-renderer-e2e/src",
+  "implicitDependencies": ["desktop-renderer"],
+  "// targets": "to see all targets run: nx show project desktop-renderer-e2e --web",
+  "targets": {}
+}
